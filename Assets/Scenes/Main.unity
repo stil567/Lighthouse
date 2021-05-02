@@ -123,6 +123,110 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &244450825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 244450827}
+  - component: {fileID: 244450826}
+  m_Layer: 0
+  m_Name: ShipSpawnerLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &244450826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244450825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70588ebfebe218488f6a437efd025be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipToSpawn:
+  - {fileID: 6434893670229297328, guid: a19e8998bca90ff4da5e95a2a310f2ba, type: 3}
+  - {fileID: 7925049535728927205, guid: 215d8410d6b43be4ea930873ab98430b, type: 3}
+  minX: -40
+  maxX: -32
+  minZ: -44
+  maxZ: 57
+  startSpawn: 10
+  intervalSpawn: 2
+--- !u!4 &244450827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244450825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &535490422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535490424}
+  - component: {fileID: 535490423}
+  m_Layer: 0
+  m_Name: ShipSpawnerRight
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &535490423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535490422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70588ebfebe218488f6a437efd025be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipToSpawn:
+  - {fileID: 6434893670229297328, guid: a19e8998bca90ff4da5e95a2a310f2ba, type: 3}
+  - {fileID: 7925049535728927205, guid: 215d8410d6b43be4ea930873ab98430b, type: 3}
+  minX: 35
+  maxX: 40
+  minZ: -44
+  maxZ: 57
+  startSpawn: 7
+  intervalSpawn: 2
+--- !u!4 &535490424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535490422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &539186226
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,6 +416,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &807779919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 807779921}
+  - component: {fileID: 807779920}
+  m_Layer: 0
+  m_Name: ShipSpawnerDown
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &807779920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807779919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70588ebfebe218488f6a437efd025be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipToSpawn:
+  - {fileID: 6434893670229297328, guid: a19e8998bca90ff4da5e95a2a310f2ba, type: 3}
+  - {fileID: 7925049535728927205, guid: 215d8410d6b43be4ea930873ab98430b, type: 3}
+  minX: -25
+  maxX: 25
+  minZ: -49
+  maxZ: -55
+  startSpawn: 5
+  intervalSpawn: 2
+--- !u!4 &807779921
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807779919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,7 +562,7 @@ GameObject:
   - component: {fileID: 1205945913}
   - component: {fileID: 1205945912}
   m_Layer: 0
-  m_Name: ShipSpawner
+  m_Name: ShipSpawnerUp
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -427,6 +583,12 @@ MonoBehaviour:
   shipToSpawn:
   - {fileID: 6434893670229297328, guid: a19e8998bca90ff4da5e95a2a310f2ba, type: 3}
   - {fileID: 7925049535728927205, guid: 215d8410d6b43be4ea930873ab98430b, type: 3}
+  minX: -35
+  maxX: 35
+  minZ: 65
+  maxZ: 71
+  startSpawn: 1
+  intervalSpawn: 2
 --- !u!4 &1205945913
 Transform:
   m_ObjectHideFlags: 0
@@ -565,7 +727,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1929930938
 MonoBehaviour:
@@ -580,6 +742,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stoneToSpawn: {fileID: 5490406625673355601, guid: ec781b073510a804595cae6ce02c71dc, type: 3}
+  minX: -19
+  maxX: 19
+  minZ: -43
+  maxZ: 43
 --- !u!1 &2077638336
 GameObject:
   m_ObjectHideFlags: 0
